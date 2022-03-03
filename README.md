@@ -1,1 +1,1 @@
-# Yash-Intern
+# yash-intern
