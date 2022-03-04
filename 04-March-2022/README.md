@@ -23,3 +23,5 @@ https://www.techtarget.com/searchnetworking/definition/client-server
 https://www.geeksforgeeks.org/cat-command-in-linux-with-examples/
 
 https://www.google.com/search?q=hrms+platform&rlz=1C1ONGR_enIN995IN995&oq=hrms+platform&aqs=chrome..69i57.6477j0j4&sourceid=chrome&ie=UTF-8
+
+https://www.hackerrank.com/domains/python?filters%5Bsubdomains%5D%5B%5D=py-introduction
