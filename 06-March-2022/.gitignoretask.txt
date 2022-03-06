@@ -1,0 +1,18 @@
+# Django stuff:
+
+```
+- *.log # Generally, the git log is a record of commits.
+
+- local_settings.py # settings.py is a core file in Django projects. 
+It holds all the configuration values that your web app needs to work; database settings, logging configuration, where to find static files, API keys
+ if you work with external APIs, and a bunch of other stuff
+
+- db.sqlite3 # Source code: Lib/sqlite3/ SQLite is a C library that provides a lightweight disk-based database that doesn't require a separate
+ server process and allows accessing the database using a nonstandard variant of the SQL query language.
+ Some applications can use SQLite for internal data storage.
+
+- db.sqlite3-journal #A DB-JOURNAL file is a temporary database file created by SQLite database management systems during a transaction 
+between an application and a database.
+ It contains a rollback journal, which is a temporary database that stores the most recent state of the database
+
+```
