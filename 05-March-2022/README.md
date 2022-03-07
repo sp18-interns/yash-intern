@@ -1,23 +1,19 @@
 
 ## yash-intern
 
-# Date 05-March-2022
+# Date 06-March-2022
 
 ## First Half
 ```
- Practiced sum of odd and even numbers of a list using loop statements
- Used git bash to update my repository
- Saw youtube videos on working with python and django
+ ENJOYED SUNDAY WITH FRIENDS AND FAMILY
 ```
 ## Second Half
 ```
-Finished lectures of Python Statements
-Completed Statement Assessment Test
-Studied about difference between git fork and git clone
+Finished half the lectures of Python Methods and Functions
+Completed Warmup Practice Test of Functions 
+Studied about gitignore a little bit
 
 
 ```
 ## Links Read
-[Make ReadMe](https://www.makeareadme.com/)
-[Python & Django](https://www.youtube.com/watch?v=B40bteAMM_M)
-[git staging](https://www.geeksforgeeks.org/staging-in-git/)
+[Git Ignore](https://git-scm.com/docs/gitignore)
