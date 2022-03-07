@@ -1,19 +1,15 @@
 
-## yash-intern
-
-# Date 06-March-2022
+# Date 07-March-2022
 
 ## First Half
 ```
- ENJOYED SUNDAY WITH FRIENDS AND FAMILY
+- Completed Level 1 Exercises on Functions
+
 ```
 ## Second Half
 ```
-Finished half the lectures of Python Methods and Functions
-Completed Warmup Practice Test of Functions 
-Studied about gitignore a little bit
-
+- Completed Level 2 Exercises on Functions
 
 ```
 ## Links Read
-[Git Ignore](https://git-scm.com/docs/gitignore)
+[CodingBat](https://codingbat.com/prob/p141905)
