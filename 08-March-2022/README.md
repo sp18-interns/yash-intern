@@ -3,7 +3,8 @@
 
 ## First Half
 ```
-- Completing Challenging Exercises on Functions from Bootcamp lectures
+- Completed Challenging Exercises on Functions from Bootcamp lectures
+- Solved one challenge from Kunal sir on List comprehension and Dict Comprehension
 
 ```
 ## Second Half
