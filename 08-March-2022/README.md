@@ -1,28 +1,51 @@
-
-# Date 08-March-2022
+# Date 09-March-2022
 
 ## First Half
-```
-### Course name- Methods and Functions: Working on it
-  - Completed Challenging Exercises on Functions from Bootcamp lectures
-  - Solved one challenge from Kunal sir on List comprehension and Dict Comprehension
-  - Completed lectures on Lambda expressions,Map and Filter functions
-  - Completed lectures on Nested Statements and Scope
 
-```
+         🔄   Course name- Methods and Functions: In Progress
+
+### Videos
+
+- ✅41 Methods and the Python Documentation: Completed
+- ✅42 Functions in Python - Completed
+- ✅43 Overview of quick Function Exercises - Completed
+- ✅44 args and kwargs in Python - Completed
+
+### Assignment
+
+- ✅ Function Practice Exercises: Completed
+- ✅ Function Level 1 and Level 2 Exercises- Completed
+
+### Doubts
+
+- Nothing As Of Now
+
+### Links Read
+
+- Nothing As Of Now
+
 ## Second Half
-```
-### Course name- Methods and Functions:  Completed
-  - Lectures - Completed
-  - Homework Assignment- Completed
-  - Next Course name- Milestone Project 1 : To Start this
 
-```
+     🔄 Course name- Methods and Functions: In Progress
+
+### Videos
+
+- ✅50 Lambda Expressions Map and Filter Function: Completed
+- ✅51 Nested Statements and Scope - Completed
+
+### Assignment
+
+- ✅ Functions Challenging Exercises: Completed
+- 🔄 Functions Homework Assignment- In Progress
+
+### Doubts
+
+- Nothing As Of Now
+
+### Links Read
+
+- Nothing As Of Now
+
 ## Links Read
-- [Lambda Expressions](https://www.w3schools.com/python/python_lambda.asp)
-- [Map and Filter Differences](https://www.quora.com/What-is-the-difference-between-map-and-filter-in-Python#:~:text=K%20answer%20views-,Map%20takes%20all%20objects%20in%20a%20list%20and%20allows%20you,return%20True%20in%20that%20function.)
-- [Set Comparisons in Python](https://betterprogramming.pub/a-visual-guide-to-set-comparisons-in-python-6ab7edb9ec41)
-- [Alphabet Range in Python](https://stackoverflow.com/questions/16060899/alphabet-range-in-python)
-- [CRLF Injection](https://owasp.org/www-community/vulnerabilities/CRLF_Injection#:~:text=The%20term%20CRLF%20refers%20to,in%20today's%20popular%20Operating%20Systems.)
-- [HTTP Ressponse Splitting](https://owasp.org/www-community/attacks/HTTP_Response_Splitting)
-- [CRLF Tips for Git](https://www.hanselman.com/blog/carriage-returns-and-line-feeds-will-ultimately-bite-you-some-git-tips)
+
+- [Break Outside Loop Error in Python](https://www.pythonpool.com/break-outside-loop-python/#:~:text=SyntaxError%3A%20break%20outside%20loop%20in%20Python%3A,-The%20purpose%20of&text=So%2C%20the%20break%20statement%20can,loop%E2%80%9D%20error%20in%20their%20code.)
