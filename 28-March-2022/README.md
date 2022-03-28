@@ -44,6 +44,7 @@
 ### Doubts
 
 - Problem in understanding the code at In[50] in my assignment file uploaded today on converting list to dictionary using iter() and zip()? Will look into it later
+- Resolved the above doubt by going through the working of zip(), which is a generator.
 - Difficulty in collecting multiple instance's data into place? Maybe use of dictionaries will help. Need to look into it
 
 ## Links Read
