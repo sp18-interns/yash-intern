@@ -38,6 +38,8 @@
 
 - Did the conversion of lists to sets using for loop,dict comprehension,using {\*list} and using dict.fomkeys() method
 - Started doing Class Person problem
+- Read pages(1-5) from Linux Fundamentals for beginners pdf from Slack
+- Read pages(1-14) from Git Concepts pdf from Slack
 
 ### Doubts
 
