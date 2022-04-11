@@ -44,3 +44,5 @@
 
 - [Python Liskov Substitution Principle](https://www.pythontutorial.net/python-oop/python-liskov-substitution-principle/)
 - [Python Metaclasses](https://realpython.com/python-metaclasses/)
+- [SOLID Principles](https://towardsdatascience.com/solid-coding-in-python-1281392a6a94)
+- [Match Case in Python](https://www.pythonpool.com/match-case-python/)
