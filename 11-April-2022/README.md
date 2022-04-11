@@ -39,6 +39,8 @@
 ### Doubts
 
 - Had doubts in understanding the method call made by the instance in a different class. Resolved by Vishal sir.
+- Doubt in understanding the usage of Match case for more than 20 or larger conditions.
+- Doubt in understanding Liskov Substitution Principle and Dependency Inversion Principle in depth.
 
 ## Links Read
 
