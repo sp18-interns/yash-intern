@@ -1,5 +1,4 @@
 # Todo list with python
-
 todos = []
 is_quit = False
 show = True
@@ -39,7 +38,7 @@ while is_quit == False:
             rTodo = input('Enter the name of the todo to delete : ')
             try:
                 tt = todos.remove(rTodo)
-                print('Todo removed')
+                print(f'Todo {rTodo} removed')
             except:
                 print('No todo found with that name')
 
