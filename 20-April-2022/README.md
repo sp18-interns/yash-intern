@@ -35,7 +35,8 @@
 ### Assignment
 
 - ✅ Lecture-8:Object Oriented Programming - Completed
-- 🔄 Lecture 9:Python Classes and Inheritance - In Progress
+- ✅ Lecture 9:Python Classes and Inheritance - Completed
+- Tested calling constructor of a class explicitly and accesing methods of the class in OOP little practice.ipynb file enclosed in the folder.
 
 ### Doubts
 
