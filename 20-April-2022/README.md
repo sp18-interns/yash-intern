@@ -34,10 +34,13 @@
 
 ### Assignment
 
-- Watching Lecture 8
+- ✅ Lecture-8:Object Oriented Programming - Completed
+- 🔄 Lecture 9:Python Classes and Inheritance - In Progress
 
 ### Doubts
 
 - Not Now
 
 ## Links Read
+
+- [Assert Statement](https://www.geeksforgeeks.org/python-assert-keyword/)
