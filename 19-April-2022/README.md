@@ -46,3 +46,4 @@
 
 - [Dynamic Typing in Python](https://www.geeksforgeeks.org/why-python-is-called-dynamically-typed/)
 - [Function 4 Best Practices](https://www.informit.com/articles/article.aspx?p=2314818)
+- [Django Basics Geeks 4 Geeks](https://www.geeksforgeeks.org/django-basics/)
