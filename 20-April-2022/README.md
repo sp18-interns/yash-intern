@@ -45,3 +45,30 @@
 ## Links Read
 
 - [Assert Statement](https://www.geeksforgeeks.org/python-assert-keyword/)
+
+## Review of Lectures
+
+- Lecture 8 : Object Oriented Programming
+
+  ```
+  Everything in Python is an object.
+  Definition of object in Python is looser compared to other languages.
+  Object can be assigned to a variable or passed as an argument to a function.
+  Built-in attributes __doc__, Not all modules are stored as .py files like example, sys
+  Objects are data abstraction:
+      an internal representation : through data attributes. ex - Linked list as attributes of list object
+      an interface for interacting with the object: through methods
+  Insulation of internal representaion from outside implementation
+  ```
+
+- Lecture-9:Python Classes and Inheritance
+  ```
+  Object Base class - the most basic type in Python
+  when instance is created __init__ is called
+  Introduction to use assert statements to make sure a custom condition is not violated
+  Defining operator methods(using double underscore) to enable objects for comparison operations
+  Getters and Setters usage to prevent bugs from coming into play in future.
+  Python not great at info hiding so using getter and setters in beneficial.
+  Implementaion of Inheritance.
+  OOP - Idea of creating your own collection of data where you can organize the information in avery consistent manner
+  ```
