@@ -12,11 +12,12 @@ class Point:
         @param y: Value for the y-coordinate of the point object. Type - float()
         @param label: Value for the label of the point object. Type - str()
         """
-        assert type(x) == float() and type(y) == float() and type(
-            label) == str(), "2 float and 1 string expected respectively"
+
         self.x = x
         self.y = y
         self.label = label
+        assert type(x) == float and type(y) == float and type(
+            label) == str, "2 float and 1 string expected respectively"
 
     def __str__(self):
         return f"{self.label}: ({self.x}, {self.y})"
@@ -28,8 +29,9 @@ class Point:
         @param x: Value to set the new value of x-coordinate. Type - float()
         @return: None
         """
-        assert type(x) == float(), "Float object expected."
+
         self.x = x
+        assert type(x) == float, "Float object expected."
 
     def get_x(self):
         """
@@ -44,8 +46,9 @@ class Point:
         @param y: Value to set the new value of y-coordinate. Type - float()
         @return: None
         """
-        assert type(y) == float(), "Float object expected."
+
         self.y = y
+        assert type(y) == float, "Float object expected."
 
     def get_y(self):
         """
@@ -61,8 +64,9 @@ class Point:
         @return: None
 
         """
-        assert type(label) == str(), "String object expected."
+
         self.label = label
+        assert type(label) == str, "String object expected."
 
     def get_label(self):
         """
@@ -81,10 +85,11 @@ class Point:
         @param y: Value to move the y-coordinate of point. Type - Float()
         @return:  
         """
-        assert type(x) == float() and type(y) == float(
-        ), "Only int or float allowed"       # TODO DONE
+
         self.x = self.x + x
         self.y = self.y + y
+        assert type(x) == float and type(
+            y) == float, "Only int or float allowed"       # TODO DONE
         print(
             f'Moving x Co-ordinate by {x} & y Co-ordinate by {y} makes the new point location as :{self}')
 
