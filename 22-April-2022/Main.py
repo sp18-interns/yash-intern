@@ -24,3 +24,4 @@ if __name__ == '__main__':
     bachha.check_quadrant()
     abrar.check_quadrant()
     vishal.check_quadrant()
+    print(f"The distance of {vishal} from {abrar} is {vishal.distance_from(abrar)}")

@@ -96,7 +96,7 @@ class Point:
     def check_quadrant(self):
         """                     
 
-        @return:
+        @return: Tells the location of point object either in quadrants or axes.
         """
         if self.x > 0 and self.y > 0:
             print(f"{self} is at first quadrant")
@@ -112,3 +112,39 @@ class Point:
             print(f"{self} is at X Axis")
         if (self.y > 0 or self.y < 0) and self.x == 0:
             print(f"{self} is at Y Axis")
+
+    def distance_from(self, x=0, y=0):
+        """
+
+        @param x: Value of x-coordinate of point object. Type- float
+        @param y: Value of y-coordinate of point object. Type- float
+        @return:    Distance of point object from other point object
+        """
+        assert type(x) == float and type(y) == float, "Only int or float allowed"
+        return (f"{((self.x - x) ** 2 + (self.y - y) ** 2) ** 0.5:.2f}")
+
+    def distance_from(self, point):
+        """
+
+        @param point: Point object
+        @return: function call to calculate distance
+        """
+        assert type(point) == Point
+        return self.distance_from(point.get_x(), point.get_y())
+
+    # Tried Method overloading but only the recent method got called. Learnt that Python doesn't
+    # support method overloading as expected in other languages.
+
+    def distance_from(self, *args):
+        """
+        Method to calculate distance of point object from another point object
+        @param args: point object or coordinate values of points. Type - Point class or float
+        @return: function call or the distance between two poonts in type float rounded to two
+        decimal places.
+        """
+        if type(args[0]) == Point:
+            assert type(args[0]) == Point
+            return self.distance_from(args[0].get_x(), args[0].get_y())
+        if type(args[0]) == float:
+            assert type(args[0]) == float and type(args[1]) == float, "Only int or float allowed"
+            return (f"{((self.x - args[0]) ** 2 + (self.y - args[1]) ** 2) ** 0.5:.2f}")
