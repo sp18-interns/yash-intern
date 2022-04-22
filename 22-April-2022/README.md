@@ -11,6 +11,7 @@
 ### Assignment
 
 - Updated check_quadrant method of Point class with conditions for point object at X or Y axis.
+- Added distance_from method to calcluate distance between points.
 
 ### Doubts
 
