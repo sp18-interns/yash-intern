@@ -14,7 +14,7 @@
 
 ### Doubts
 
-- Had doubt in continous printout of undesired Nonetype while adding new notes. Doubt resolved by Vishal Sir and Abrar Sir by using return statement properly in methods.
+- Had doubt in continuous printout of undesired Nonetype while adding new notes. Doubt resolved by Vishal Sir and Abrar Sir by using return statement properly in methods.
 
 - Had trouble in dealing with EOF error while enabling multiple line input in console while running the program. Resolved by solution given by Vishal Sir and Kunal Sir by using a test case to break out of the multiple line input.
 
