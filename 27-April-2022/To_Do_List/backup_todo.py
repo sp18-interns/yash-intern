@@ -15,7 +15,6 @@ class To_do_Item(object):
         for index in notes:
             item = f"{index}. {self.items[index]}\n"
             list_data += item
-
         return list_data
 
     def __str__(self):
@@ -31,6 +30,7 @@ Created at:{self.created_at}\t\t\tModified at:{self.modified_at}
 
     def add_notes(self,item):
         self.items.append(item)
+        self.created_at = datetime.now()
         print(f"{item} added at {self.created_at}")
 
     def __setitem__(self, key, edit):
@@ -40,6 +40,7 @@ Created at:{self.created_at}\t\t\tModified at:{self.modified_at}
             print('Sorry, No existing notes here to edit')
         else:
             self.items[self.key] = self.edit
+            self.modified_at = datetime.now()
             print(f"{self.edit} added at {self.modified_at}")
 
     def __delitem__(self, index):
@@ -49,7 +50,7 @@ Created at:{self.created_at}\t\t\tModified at:{self.modified_at}
         else:
             print(f"{self.items[self.index]} deleted")
             del self.items[self.index]
-        self.menu()
+
 
     def search(self, query):
         for i, item in enumerate(self.items):
@@ -65,7 +66,7 @@ Created at:{self.created_at}\t\t\tModified at:{self.modified_at}
 
 
         print(
-            "What would you like to do?\n1.Add New: \n2.Update Existing: \n3.Search something: \n4.Delete: \n5.Show notes\n6.Show To_Do_list: \n7.Exit: ")
+            "What would you like to do?\n1.Add New: \n2.Update Existing: \n3.Search something: \n4.Delete: \n5.Show notes\n6.Exit: ")
         try:
             input_choice = int(input('Please choose your choice(in no.s): '))
         except:
@@ -73,50 +74,41 @@ Created at:{self.created_at}\t\t\tModified at:{self.modified_at}
         finally:
             while True:
                 if input_choice == 1:
-                    input_title = input('How would you like to name your notes: ')
-                    t.add_title(input_title)
                     while True:
                         try:
                             note = input("Add note or press 'E' to exit: ")
                             if note != 'E':
-                                t.add_notes(note)
-
+                                self.add_notes(note)
                             else:
                                 break
                         except EOFError:
                             break
-                    print(f"TODO item is :\n{t}")
-                    t1.add_todo_items()
-                    print(f"TODO list is :\n{t1}")
+                    print(f"TODO item is :\n{self}")
                     self.replay()
 
                 elif input_choice == 2:
                     edit_notes_index = int(input('Choose which index you want to edit: '))
                     edit = input('Type your updated note: ')
-                    t.__setitem__(edit_notes_index, edit)
-                    print(To_do_Item)
+                    self.__setitem__(edit_notes_index, edit)
+                    print(self)
                     self.replay()
 
                 elif input_choice == 3:
                     query = input('Search: ')
-                    t.search(query)
+                    self.search(query)
                     self.replay()
 
                 elif input_choice == 4:
                     del_index = int(input('Choose which index you want to delete: '))
-                    t.__delitem__(del_index)
-                    print(t)
+                    self.__delitem__(del_index)
+                    print(self)
                     self.replay()
 
                 elif input_choice == 5:
-                    print(t, end='')
+                    print(self, end='')
                     self.replay()
 
                 elif input_choice == 6:
-                    print(t1,end='')
-                    self.replay()
-
-                elif input_choice == 7:
                     exit(0)
 
                 else:
@@ -134,10 +126,12 @@ Created at:{self.created_at}\t\t\tModified at:{self.modified_at}
                     input('Sorry, Wrong Choice. Try again(y/n): ')
             break
         return ''
-from menu import Menu
+
 
 if __name__ == "__main__":
-    m= Menu()
+    m= To_do_Item()
+    input_title = input('How would you like to name your notes: ')
+    m.add_title(input_title)
     m.choosing_from_menu()
 
 

@@ -1,9 +1,8 @@
-from To_Do_Item import To_do_Item
+# from To_Do_Item import To_Do_Item
 from To_Do_List import To_Do_List
 
-t = To_do_Item()
 t1 = To_Do_List()
-
+t = t1.items
 class Menu(object):
 
     def __init__(self):
@@ -34,7 +33,6 @@ class Menu(object):
                             note = input("Add note or press 'E' to exit: ")
                             if note != 'E':
                                 t.add_notes(note)
-
                             else:
                                 break
                         except EOFError:
@@ -48,7 +46,7 @@ class Menu(object):
                     edit_notes_index = int(input('Choose which index you want to edit: '))
                     edit = input('Type your updated note: ')
                     t.__setitem__(edit_notes_index, edit)
-                    print(To_do_Item)
+                    print(t)
                     self.replay()
 
                 elif input_choice == 3:
@@ -67,7 +65,7 @@ class Menu(object):
                     self.replay()
 
                 elif input_choice == 6:
-                    print(t1,end='')
+                    print(t1)
                     self.replay()
 
                 elif input_choice == 7:
