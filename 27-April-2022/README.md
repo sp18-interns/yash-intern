@@ -39,6 +39,7 @@
 ### Doubts
 
 - Having trouble in implementing objects of different classes in a single class. Working on it.
+- Getting stuck in adding to_do_items and their notes in proper order in to_do_list. Need guidance. Will resolve after demo. Simple Todolist containing 1 calss and their methods is ready.
 
 ## Links Read
 
