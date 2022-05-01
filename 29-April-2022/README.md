@@ -42,3 +42,4 @@
 
 - [10 hardest questions in Python](https://medium.com/@saint_sdmn/10-hardest-python-questions-98986c8cd309)
 - [10 Python Mistakes by beginners](https://medium.com/geekculture/10-python-mistakes-that-tell-youre-a-nooby-359487f22c97)
+- [Python Vectors and Numpy](https://www.pythonpool.com/python-vector/)
