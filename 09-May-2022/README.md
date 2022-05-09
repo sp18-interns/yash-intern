@@ -44,3 +44,6 @@
 ## Links Read
 
 - [Using Slug URLs in Django Correctly](https://stackoverflow.com/questions/59535275/how-do-i-use-slug-urls-correctly-in-django)
+- [REST API- The basics](https://towardsdatascience.com/rest-api-the-basics-d91859537c9d)
+- [HTTP Status Codes](https://restfulapi.net/http-status-codes/)
+- [REST API- Architectural Constraints](https://towardsdatascience.com/rest-api-the-architectural-constraints-fc4876b41e3d)
