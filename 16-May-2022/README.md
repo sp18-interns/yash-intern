@@ -7,14 +7,17 @@
 ### Videos
 
 - 🔄16 Optional Django Summary and Quick Introduction: In Progress
-  - ✅018 Querying Data: Completed
   - ✅019 Adding Image Upload: Completed
   - ✅020 Serving and Displaying Images: Completed
+  - ✅021 Configuring the Admin Area: Completed
+  - ✅022 Setting One-to-Many Relations: Completed
+  - ✅023 Setting Many-to-Many Relations: Completed
 
 ### Assignment
 
-- Revised by watching previous videos to soldify what i learned.
+- Revised by watching previous videos to recap what I learned.
 - Watched and understood the videos. Also,practiced in the attached django_course_site project.
+- Added a new Participant class to my model which was used to set a many to many relations with Meetup Class(using models.ManytoManyField()). Also viewed the behind the scene creation by Django of an additional table in DB Viewer with meetup_id and particiant_id as columns of that table
 
 ### Doubts
 
