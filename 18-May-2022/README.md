@@ -54,6 +54,7 @@
 ### Doubts
 
 - How to custom handle Http404 exception? When using standard settings and intentionally entering a wrong URL, it displays a common error. Changing DEBUG= False and ALOOWED_HOSTS =['*'] results in 500 error which is handled by Django behind the scene as found out by debugging. How can I enable HTTP error handling such that i can use custom "404.html" template to display the error page?
+- Tried adding images to hackerrank problem README markdown file following suggestions from stack overflow but couldn't get the result. Need help.
 
 ## Links Read
 
