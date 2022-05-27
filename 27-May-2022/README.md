@@ -9,6 +9,7 @@
 - 🔄08 Relationships: In Progress
   - ✅004 Working with Relations in Python Code: Completed
   - ✅005 Cross Model Queries: Completed
+  - ✅006 Managing Relations in Admin: Completed
 
 ### Assignment
 
@@ -24,10 +25,27 @@
 
 ## Second Half
 
+- 🔄 Python Django- The Practical Guide: In Progress
+
 ### Videos
+
+- 🔄08 Relationships: In Progress
+  - ✅008 One-to-One Python Code: Completed
+  - ✅009 One-to-One & Admin Config: Completed
+  - ✅010 Setting Up Many-to-Many: Completed
+  - ✅011 Using many-to-many in Python : Completed
+  - ✅012 Many-to-many in Admin: Completed
+  - ✅014 Summary : Completed
 
 ### Assignment
 
+- Practicing one-to-one,one-to-many and many-to-many relationships between models in both shell and admin configurations.
+
 ### Doubts
 
+- None
+
 ## Links Read
+
+- [Python call by value and call by reference](https://www.geeksforgeeks.org/is-python-call-by-reference-or-call-by-value/?ref=lbp)
+- [Relationship Fields Documentation](https://docs.djangoproject.com/en/3.2/ref/models/fields/#module-django.db.models.fields.related)
