@@ -8,6 +8,7 @@
 
 - 🔄08 Relationships: In Progress
   - ✅004 Working with Relations in Python Code: Completed
+  - ✅005 Cross Model Queries: Completed
 
 ### Assignment
 
