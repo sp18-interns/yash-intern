@@ -29,7 +29,7 @@
 
 ### Videos
 
-- 🔄08 Relationships: In Progress
+- ✅08 Relationships: Completed
   - ✅008 One-to-One Python Code: Completed
   - ✅009 One-to-One & Admin Config: Completed
   - ✅010 Setting Up Many-to-Many: Completed
