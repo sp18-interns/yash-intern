@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+Sorry! Page Not Found!
+{% endblock %}
+
+{% block css_files %}
+  <link rel="stylesheet" href="{% static 'for-error.css' %}" />
+  <link rel="stylesheet" href="{% static 'post_error.css' %}" />
+{% endblock %}
+
+
+{% block content %}
+  <h1>There is No Such Page</h1>
+  <p>Check the address and try again.</p>
+{% endblock %}
