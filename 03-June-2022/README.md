@@ -36,7 +36,7 @@
 
 ### Doubts
 
-- None.
+- Couldn't solve Matrix Script problem on hackerrank. Need to look at it again.
 
 ## Links Read
 
