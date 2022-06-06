@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Meetups</title>
+</head>
+<body>
+<h1>All Meetups!</h1>
+<link rel="stylesheet" href="{% static 'meetups/styles/base.css' %}">
+<!--- {\% \%} used here to load --->
+<!---static data --->
+
+    <p>Hello World!</p>
+<h2>{{ meetups.0.title }}</h2>
+<!--- {\{\% \%\}} used here to load dynamic data in template that will be rendered--->
+<!--- in views as http response.--->
+</body>
+</html>

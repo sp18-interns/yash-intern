@@ -1,0 +1,318 @@
+Microsoft Windows [Version 10.0.22000.318]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Yash>cd Desktop
+
+C:\Users\Yash\Desktop>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Yash\Desktop>dir
+ Volume in drive C is OS
+ Volume Serial Number is 886D-D00F
+
+ Directory of C:\Users\Yash\Desktop
+
+14-03-2022  16:52    <DIR>          .
+08-03-2022  10:43    <DIR>          ..
+08-03-2022  14:50    <DIR>          .ipynb_checkpoints
+05-03-2022  23:15    <DIR>          Complete Python Bootcamp Go from zero to hero in Python 3
+08-03-2022  15:36             4,977 Lamba Expressions Map Filter function.ipynb
+03-03-2022  05:36             2,356 Microsoft Edge.lnk
+02-03-2022  22:42             1,518 myfirstnotebook.ipynb
+09-03-2022  11:03           101,811 mypic.jpg
+14-03-2022  16:52                30 myProgram.py
+05-03-2022  20:41            37,648 Numbers.ipynb
+03-03-2022  11:14             2,200 Slack.lnk
+05-03-2022  11:51             1,943 sum odd even numbers.ipynb
+05-03-2022  22:41            11,866 useful operators and list comprehensions.ipynb
+11-03-2022  12:57    <DIR>          yash-intern
+               9 File(s)        164,349 bytes
+               5 Dir(s)  181,790,400,512 bytes free
+
+C:\Users\Yash\Desktop>python myProgram.py
+  File "C:\Users\Yash\Desktop\myProgram.py", line 1
+    from myModule import my_func()
+                                ^
+SyntaxError: invalid syntax
+
+C:\Users\Yash\Desktop>python myProgram.py
+  File "C:\Users\Yash\Desktop\myProgram.py", line 1
+    from myModule import my_func()
+                                ^
+SyntaxError: invalid syntax
+
+C:\Users\Yash\Desktop>python myProgram.py
+  File "C:\Users\Yash\Desktop\myProgram.py", line 1
+    from myModule.py import my_func()
+                                   ^
+SyntaxError: invalid syntax
+
+C:\Users\Yash\Desktop>Python myProgram.py
+  File "C:\Users\Yash\Desktop\myProgram.py", line 1
+    from myModule.py import my_func()
+                                   ^
+SyntaxError: invalid syntax
+
+C:\Users\Yash\Desktop>Python myProgram.py
+  File "C:\Users\Yash\Desktop\myProgram.py", line 1
+    from myModule.py import my_func()
+                                   ^
+SyntaxError: invalid syntax
+
+C:\Users\Yash\Desktop>Python myProgram.py
+  File "C:\Users\Yash\Desktop\myProgram.py", line 1
+    from myModule import my_func()
+                                ^
+SyntaxError: invalid syntax
+
+C:\Users\Yash\Desktop>Python myProgram
+Python: can't open file 'C:\\Users\\Yash\\Desktop\\myProgram': [Errno 2] No such file or directory
+
+C:\Users\Yash\Desktop>Python myProgram.py
+  File "C:\Users\Yash\Desktop\myProgram.py", line 1
+    from myModule import my_func()
+                                ^
+SyntaxError: invalid syntax
+
+C:\Users\Yash\Desktop>Python myProgram.py
+Hey, This is myModule.py file
+
+C:\Users\Yash\Desktop>python myProgram.py
+Traceback (most recent call last):
+  File "C:\Users\Yash\Desktop\myProgram.py", line 2, in <module>
+    from MyMainPackage.subpackage import mysubscript
+ModuleNotFoundError: No module named 'MyMainPackage.subpackage'
+
+C:\Users\Yash\Desktop>python myProgram.py
+Hey I m a function inside some main script
+Hey Im a function inside mysubscript
+
+C:\Users\Yash\Desktop>python one.py
+Top Level One.py
+One.py is being run directly
+
+C:\Users\Yash\Desktop>python two.py
+Traceback (most recent call last):
+  File "C:\Users\Yash\Desktop\two.py", line 1, in <module>
+    import One
+ModuleNotFoundError: No module named 'One'
+
+C:\Users\Yash\Desktop>python two.py
+Traceback (most recent call last):
+  File "C:\Users\Yash\Desktop\two.py", line 1, in <module>
+    import One.py
+ModuleNotFoundError: No module named 'One'
+
+C:\Users\Yash\Desktop>python two .py
+python: can't open file 'C:\\Users\\Yash\\Desktop\\two': [Errno 2] No such file or directory
+
+C:\Users\Yash\Desktop>python two.py
+Top Level One.py
+One.py has been imported
+Traceback (most recent call last):
+  File "C:\Users\Yash\Desktop\two.py", line 3, in <module>
+    func()
+NameError: name 'func' is not defined
+
+C:\Users\Yash\Desktop>python two.py
+Top Level One.py
+One.py has been imported
+One.py is here
+Top Level two.py
+Two.py is being run directly
+
+C:\Users\Yash\Desktop>python mysubscript.py
+python: can't open file 'C:\\Users\\Yash\\Desktop\\mysubscript.py': [Errno 2] No such file or directory
+
+C:\Users\Yash\Desktop>python one.py
+Hey I m a function inside some main script
+Top Level One.py
+One.py is being run directly
+
+C:\Users\Yash\Desktop>python one.py
+Traceback (most recent call last):
+  File "C:\Users\Yash\Desktop\one.py", line 1, in <module>
+    from MyMainPackage import *
+AttributeError: module 'MyMainPackage' has no attribute ''
+
+C:\Users\Yash\Desktop>python one.py
+Hey I m a function inside some main script
+Top Level One.py
+One.py is being run directly
+
+C:\Users\Yash\Desktop>python one.py
+Traceback (most recent call last):
+  File "C:\Users\Yash\Desktop\one.py", line 3, in <module>
+    some_main_script.report_main()
+NameError: name 'some_main_script' is not defined
+
+C:\Users\Yash\Desktop>pwd
+'pwd' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Yash\Desktop>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Yash\Desktop>dir
+ Volume in drive C is OS
+ Volume Serial Number is 886D-D00F
+
+ Directory of C:\Users\Yash\Desktop
+
+14-03-2022  18:20    <DIR>          .
+08-03-2022  10:43    <DIR>          ..
+08-03-2022  14:50    <DIR>          .ipynb_checkpoints
+05-03-2022  23:15    <DIR>          Complete Python Bootcamp Go from zero to hero in Python 3
+08-03-2022  15:36             4,977 Lamba Expressions Map Filter function.ipynb
+03-03-2022  05:36             2,356 Microsoft Edge.lnk
+02-03-2022  22:42             1,518 myfirstnotebook.ipynb
+14-03-2022  17:56    <DIR>          MyMainPackage
+14-03-2022  16:58                55 myModule.py
+09-03-2022  11:03           101,811 mypic.jpg
+14-03-2022  17:57               152 myProgram.py
+05-03-2022  20:41            37,648 Numbers.ipynb
+15-03-2022  11:16               247 one.py
+03-03-2022  11:14             2,200 Slack.lnk
+05-03-2022  11:51             1,943 sum odd even numbers.ipynb
+15-03-2022  11:12               165 two.py
+05-03-2022  22:41            11,866 useful operators and list comprehensions.ipynb
+11-03-2022  12:57    <DIR>          yash-intern
+14-03-2022  18:27    <DIR>          __pycache__
+              12 File(s)        164,938 bytes
+               7 Dir(s)  181,536,845,824 bytes free
+
+C:\Users\Yash\Desktop>python one.py
+Traceback (most recent call last):
+  File "C:\Users\Yash\Desktop\one.py", line 3, in <module>
+    some_main_script.report_main()
+NameError: name 'some_main_script' is not defined
+
+C:\Users\Yash\Desktop>python one.py
+Traceback (most recent call last):
+  File "C:\Users\Yash\Desktop\one.py", line 3, in <module>
+    some_main_script.report_main()
+NameError: name 'some_main_script' is not defined
+
+C:\Users\Yash\Desktop>python one.py
+Hey I m a function inside some main script
+Top Level One.py
+One.py is being run directly
+
+C:\Users\Yash\Desktop>python one.py
+Hey I m a function inside some main script
+Top Level One.py
+One.py is being run directly
+
+C:\Users\Yash\Desktop>python one.py
+Traceback (most recent call last):
+  File "C:\Users\Yash\Desktop\one.py", line 4, in <module>
+    some_main_script.report_main()
+NameError: name 'some_main_script' is not defined
+
+C:\Users\Yash\Desktop>python one.py
+Hey I m a function inside some main script
+Traceback (most recent call last):
+  File "C:\Users\Yash\Desktop\one.py", line 5, in <module>
+    mysubscript.sub_report()
+NameError: name 'mysubscript' is not defined
+
+C:\Users\Yash\Desktop>python one.py
+Traceback (most recent call last):
+  File "C:\Users\Yash\Desktop\one.py", line 4, in <module>
+    some_main_script.report_main()
+NameError: name 'some_main_script' is not defined
+
+C:\Users\Yash\Desktop>python one.py
+Hey I m a function inside some main script
+Top Level One.py
+One.py is being run directly
+
+C:\Users\Yash\Desktop>python one.py
+Traceback (most recent call last):
+  File "C:\Users\Yash\Desktop\one.py", line 4, in <module>
+    some_main_script.report_main()
+NameError: name 'some_main_script' is not defined
+
+C:\Users\Yash\Desktop>python one.py
+Traceback (most recent call last):
+  File "C:\Users\Yash\Desktop\one.py", line 4, in <module>
+    some_main_script.report_main()
+NameError: name 'some_main_script' is not defined
+
+C:\Users\Yash\Desktop>python one.py
+Hey I m a function inside some main script
+Top Level One.py
+One.py is being run directly
+
+C:\Users\Yash\Desktop>python one.py
+Traceback (most recent call last):
+  File "C:\Users\Yash\Desktop\one.py", line 4, in <module>
+    some_main_script.report_main()
+NameError: name 'some_main_script' is not defined
+
+C:\Users\Yash\Desktop>python one.py
+Traceback (most recent call last):
+  File "C:\Users\Yash\Desktop\one.py", line 1, in <module>
+    from MyMainPackage import *
+  File "C:\Users\Yash\Desktop\MyMainPackage\__init__.py", line 1
+    __all__=['some_main_script',Subpackage.'mysubscript']
+                                           ^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+C:\Users\Yash\Desktop>python one.py
+Traceback (most recent call last):
+  File "C:\Users\Yash\Desktop\one.py", line 1, in <module>
+    from MyMainPackage import *
+AttributeError: module 'MyMainPackage' has no attribute 'mysubscript'
+
+C:\Users\Yash\Desktop>python one.py
+Traceback (most recent call last):
+  File "C:\Users\Yash\Desktop\one.py", line 1, in <module>
+    from MyMainPackage import *
+AttributeError: module 'MyMainPackage' has no attribute 'mysubscript'
+
+C:\Users\Yash\Desktop>python one.py
+Traceback (most recent call last):
+  File "C:\Users\Yash\Desktop\one.py", line 1, in <module>
+    from MyMainPackage import *
+AttributeError: module 'MyMainPackage' has no attribute 'mysubscript'
+
+C:\Users\Yash\Desktop>python one.py
+Traceback (most recent call last):
+  File "C:\Users\Yash\Desktop\one.py", line 3, in <module>
+    from Subpackage import *
+ModuleNotFoundError: No module named 'Subpackage'
+
+C:\Users\Yash\Desktop>python one.py
+Hey I m a function inside some main script
+Hey Im a function inside mysubscript
+Top Level One.py
+One.py is being run directly
+
+C:\Users\Yash\Desktop>python one.py
+Traceback (most recent call last):
+  File "C:\Users\Yash\Desktop\one.py", line 6, in <module>
+    some_main_script.report_main()
+NameError: name 'some_main_script' is not defined
+
+C:\Users\Yash\Desktop>python one.py
+Traceback (most recent call last):
+  File "C:\Users\Yash\Desktop\one.py", line 6, in <module>
+    some_main_script.report_main()
+NameError: name 'some_main_script' is not defined
+
+C:\Users\Yash\Desktop>python one.py
+Traceback (most recent call last):
+  File "C:\Users\Yash\Desktop\one.py", line 3, in <module>
+    from Subpackage import *
+ModuleNotFoundError: No module named 'Subpackage'
+
+C:\Users\Yash\Desktop>python one.py
+Hey I m a function inside some main script
+Hey Im a function inside mysubscript
+Top Level One.py
+One.py is being run directly
+
+C:\Users\Yash\Desktop>\

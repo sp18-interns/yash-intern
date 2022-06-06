@@ -1,0 +1,1 @@
+- ![Alt text](symmetric_difference.png?raw="True")
