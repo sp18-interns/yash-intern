@@ -1,1 +1,0 @@
-- ![Alt text](compress-the-string.png?raw="True")
