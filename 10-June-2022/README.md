@@ -41,5 +41,5 @@
 ## Links Read
 
 - [Diagram of all OAuth2 flows](https://darutk.medium.com/diagrams-and-movies-of-all-the-oauth-2-0-flows-194f3c3ade85)
-- [Building a simple Book Catalogur using REST API](https://towardsdatascience.com/rest-api-building-a-book-catalogue-api-part-i-cf8599d63ca4)
+- [Building a simple Book Catalogue using REST API](https://towardsdatascience.com/rest-api-building-a-book-catalogue-api-part-i-cf8599d63ca4)
 - [REST API best practices](https://dzone.com/articles/rest-api-best-practices-with-design-examples-from)
