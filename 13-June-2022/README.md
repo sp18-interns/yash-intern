@@ -40,3 +40,5 @@
 ## Links Read
 
 - [YARAS - Introduction](https://github.com/darrin/yaras#data-integrity-and-concurrency-control)
+- [Developing ERDs](http://users.csc.calpoly.edu/~jdalbey/205/Lectures/HOWTO-ERD.html)
+- [Cardinality in ERD](https://www.visual-paradigm.com/guide/data-modeling/what-is-entity-relationship-diagram/#:~:text=Cardinality,one%2Dto%2Dmany%20relationship.)
