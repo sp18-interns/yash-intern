@@ -1,0 +1,1 @@
+- ![Alt text](reduce_function.png?raw="True")
