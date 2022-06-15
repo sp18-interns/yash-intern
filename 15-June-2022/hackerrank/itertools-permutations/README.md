@@ -1,0 +1,1 @@
+- ![Alt text](itertools-permutations.png?raw="True")
