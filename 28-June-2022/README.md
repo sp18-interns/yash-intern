@@ -45,7 +45,8 @@
 
 ### Doubts
 
-- None
+- Kunal Sir asked to include in SignUP API, Activate OTP checking state in database before hitting email verification API. Didn't understand this but included it in user flow diagram. Kindly review and guide.
+- ![Alt text](autoscal-userflow-diagram.png?raw="True")
 
 ## Links Read
 
