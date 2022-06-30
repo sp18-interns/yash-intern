@@ -44,3 +44,4 @@
 ## Links Read
 
 - [Filtering](https://www.django-rest-framework.org/api-guide/filtering/)
+- [User from django.contrib.auth.models](https://docs.djangoproject.com/en/4.0/topics/auth/default/)
