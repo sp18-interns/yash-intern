@@ -28,3 +28,6 @@
 - [Date 04-July-2022](https://github.com/sp18-interns/yash-intern/tree/main/04-July-2022)
 - [Date 05-July-2022](https://github.com/sp18-interns/yash-intern/tree/main/05-July-2022)
 - [Date 06-July-2022](https://github.com/sp18-interns/yash-intern/tree/main/06-July-2022)
+- [Date 07-July-2022](https://github.com/sp18-interns/yash-intern/tree/main/07-July-2022)
+- [Date 11-July-2022](https://github.com/sp18-interns/yash-intern/tree/main/11-July-2022)
+- [Date 12-July-2022](https://github.com/sp18-interns/yash-intern/tree/main/12-July-2022)
